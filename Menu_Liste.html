@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menüler-Uzay Restaurant</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="Css/Menu_Liste.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Logo -->
+    <link rel="website icon" type="png" href="Resim/Logo.png">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <!--Logo-->
+            <a href="İndex.html" class="logo">
+                <img src="Resim/Logo.png" alt="">
+            </a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="İndex.html" class="active">AnaSayfa</a></li>
+                <li><a href="Menu.html">Menüler</a></li>
+                <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="İletişim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="grup container" id="Ana_Yemekler">
+        <h1>Ana Yemekler</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Ankara Tava <span class="price">550 ₺</span></div>
+                <div class="description">Biber ve domates ile kavrulmuş şehriye pilavı üstünde tandırda pişmiş kuzu eti.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Balaban Karışık <span class="price">550 ₺</span></div>
+                <div class="description">Eskişehir’in meşhur Balaban köftesi, yoğurt ve sosla servis edilir.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Balaban Köfte <span class="price">380 ₺</span></div>
+                <div class="description">Eskişehir’in meşhur sade Balaban köftesi, soslu olarak sunulur.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Çömlekte Kuru Fasulye <span class="price">280 ₺</span></div>
+                <div class="description">Kemikli dana eti ile taş fırında pişmiş kuru fasulye, klasik lezzet.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Eskişehir Düğün Pilavı<span class="price">510 ₺</span></div>
+                <div class="description">Kuzu etli düğün pilavı, karamelleşmiş soğan ve fıstık ile sunulur.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Geleli Kebap<span class="price">510 ₺</span></div>
+                <div class="description">Kuzu etiyle yapılan ve taş fırında pişen Geleli kebabı.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Günün Sebze Yemeği <span class="price">270 ₺</span></div>
+                <div class="description">Mevsim sebzelerinden yapılan günlük taze sebze yemeği.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kıymalı Mantı <span class="price">340 ₺</span></div>
+                <div class="description">Ev yapımı Türk mutfağının klasik mantısı, yoğurt ve tereyağı ile servis edilir.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Kuzu İncik <span class="price">550 ₺</span></div>
+                <div class="description">Tandırda pişmiş kuzu incik, patates püresi ile sunulur.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Mutancana <span class="price">550 ₺</span></div>
+                <div class="description">Osmanlı mutfağından bademli kuzu tandır eti ile yapılan özel bir yemek.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Pehlivan Köfte <span class="price">340 ₺</span></div>
+                <div class="description">Antep usulü köfte, bulgur pilavı ve ayran eşliğinde sunulur.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Saray Tandır<span class="price">550 ₺</span></div>
+                <div class="description">Taş fırında pişmiş tandır eti, buğday ve özel sosla servis edilir.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Şah Dana Güveç <span class="price">750 ₺</span></div>
+                <div class="description">Dana eti ve sebzelerle hazırlanan geleneksel güveç yemeği.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Şah Kuzu Güveç<span class="price">500 ₺</span></div>
+                <div class="description">Kuzu eti ile hazırlanan güveç, taze sebzeler ile pişirilir.</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="grup container" id="Başlangic_ve_Çorbalar" >
+        <h1>Başlangıç ve Çorbalar</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Bamya Çorbası<span class="price">190₺</span></div>
+                <div class="description">Konya mutfağından çiçek bamya, kuzu eti, salça ve limon ile</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Karışık Dolma Tabağı<span class="price">250 ₺</span></div>
+                <div class="description">Kuru patlıcan ve kuru biber dolması</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Günün Çorbası <span class="price">140 ₺</span></div>
+                <div class="description">Lütfen danışınız</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Nohutlu Pirinç Pilavı<span class="price">130 ₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Soğan Dolması<span class="price">150 ₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Anadolu'dan Beş Başlangıç<span class="price">500 ₺</span></div>
+                <div class="description">Nar Ekşili Humus, Kuru Dolma, Kale Biberi, Keşkek, Fellah Köfte</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Turşu<span class="price">90 ₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Atom<span class="price">150 ₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Yoğurt <span class="price">50 ₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Cacık <span class="price">70 ₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Zeytinyağlı Yaprak Sarma<span class="price">200 ₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Saray Tandır<span class="price">550 ₺</span></div>
+                <div class="description">Taş fırında pişmiş tandır eti, buğday ve özel sosla servis edilir.</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Humus<span class="price">150 ₺</span></div>
+                <div class="description">Her gün yenilenen başlangıçlarımız için lütfen danışınız</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Mercimek Çorbası<span class="price">40₺</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="grup container" id="Kahvaltı" >
+        <h1>Kahvaltı</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Destan Kahvaltı<span class="price">780₺</span></div>
+                <div class="description">Kişi başı ücreti 780 TL dir. Tüm ürünler sınırsızdır, sevdiğiniz ürünler bittikçe tekrar isteyebilirsiniz. En az 2 kişiye servis edilir.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kavurmalı Yumurta<span class="price">330₺</span></div>
+                <div class="description">150 gr Dana Kavurma</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Kahvaltı Tabağı<span class="price">590₺</span></div>
+                <div class="description">Cumartesi-Pazar Servis Personeline Danışınız.</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Pastırmalı Yumurta<span class="price">300 ₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Sucuklu Yumurta<span class="Sira">200₺</span></div>
+            </div>
+    </div>
+    </div>
+    <div class="grup container" id="Mezeler" >
+        <h1>Mezeler</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">İçli Köfte<span class="price">130₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Çiğ Köfte<span class="price">120₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Acılı Ezme<span class="price">100₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Midye Dolma<span class="price">105₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Şakşuka<span class="price">130₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Topik<span class="price">110₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Küpoğlu<span class="price">100₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">borani<span class="price">120₺</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="grup container" id="Salata">
+        <h1>Salatalar</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Bal Kabaklı Yeşil Salata<span class="price">250₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Köfteli Sakarı Salatası<span class="price">120₺</span></div>
+                <div class="description">Sızma Zeytinyağlı, Nar Ekşili</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Mevsim Salatası<span class="price">140₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Çoban Salatası<span class="price">145₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Seftali Roka Salatası<span class="price">265₺</span></div>
+                <div class="description">Seftali Roka Salatası</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Gavurdağı Salatası<span class="price">200₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Hellimli Sakarı Salatası<span class="Sira">265₺</span></div>
+                <div class="description">Sızma Zeytinyağlı, Nar Ekşili</div>
+            </div>
+    </div>
+    </div>
+    <div class="grup container" id="Tatlılar">
+        <h1>Tatlılar</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Almam Keki<span class="price">220₺</span></div>
+                <div class="description">Muhallebili ve kabak marmelatlı yumuşacık kek</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Höşberim<span class="price">330₺</span></div>
+                <div class="description">Sıcak veya Soğuk </div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Cennet Çamuru<span class="price">280₺</span></div>
+                <div class="description">En çok Sevilen</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kabak Şekeri Tatlısı<span class="price">220₺</span></div>
+                <div class="description">içi yumuşak, dışı kıtır kirece yatırılmış kabak şekeri, manda kaymağı ile</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Cheesecake<span class="price">220₺</span></div>
+                <div class="description">Mevsim meyveleri eşliğinde</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kakaolu Islak Kek<span class="price">210₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Cay Tabağı<span class="price">210₺</span></div>
+                <div class="description">Tatlı & Tuzlu</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kardelen<span class="price">220₺</span></div>
+                <div class="description">15. yy Osmanlı Mutfağı tarifi, sütlaç ve zerde bir arada</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Çilekli Muhallebi<span class="price">210₺</span></div>
+                <div class="description">Yeni Nesil Çilekli Muhallebi</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kıstırma<span class="price">220₺</span></div>
+                <div class="description">Kemalpaşa Peynir Tatlısı arası kaymak, tahin ve ceviz</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Fırında Kabak Tatlısı<span class="price">200₺</span></div>
+                <div class="description">Tahin, Ceviz ve Manda Kaymağı Eşliğinde</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Nevzine<span class="price">220₺</span></div>
+                <div class="description">Kayseri Mutfağından, tereyağı, tahin ve pekmez, ceviz ve manda kaymağı ilavesi ile</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Fırında Sütlaç<span class="price">200₺</span></div>
+                <div class="description">Günlük sütle, ağır ateşte ve bol fındık krokan ile</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Pelte<span class="price">210₺</span></div>
+                <div class="description">Hafif tatlılar içinde yeni favori lezzetimiz...</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Havuç Dilimi<span class="price">250₺</span></div>
+                <div class="description">Dünya'nın en eski baklavacısı Gaziantep Güllüoğlu Baklavaları</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Vişneli Ekmek Kadayıfı<span class="price">210₺</span></div>
+                <div class="description">Afyonkarahisar'ın tescilli kaymaklı ekmek kadayıfı</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Zerde<span class="Sira">210₺</span></div>
+                <div class="description">Osmanlı dönemi saray tatlısı, muhallebi kıvamında safran, gül suyu, kuş üzümü, çam fıstığı ile</div>
+            </div>
+    </div>
+    </div>
+    <div class="grup container" id="Soğuk_İçecekler" >
+        <h1>Soğuk İçecekler</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Alaca Soda<span class="price">200₺</span></div>
+                <div class="description">Sürahide (4 Kişilik)</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Meyan Kökü Şerbeti<span class="price">100₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Bakır Bardakta Yayık Ayran<span class="price">70₺</span></div>
+                <div class="description">Bakırın Serinliğinde</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Odunpazarı Şerbeti<span class="price">100₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Ev Yapımı Limonata<span class="price">90₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Portakal Suyu<span class="price">100₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Gül Hatmi Şerbeti<span class="price">90₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Reyhan Şerbeti<span class="price">100₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Hoşaflar<span class="price">100₺</span></div>
+                <div class="description">Kayısı, Çilek, Erik, Vişne, Kızılcık, Ayva, Üzüm</div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Su 0,5 Lt<span class="price">30₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">İnişdibi Maden Suyu<span class="price">65₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Valide Sultan Şerbeti<span class="price">100₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Lavanta Şerbeti<span class="Sira">65₺</span></div>
+            </div>
+    </div>
+    </div>
+    <div class="grup container" id="Sicak_İçecekler" >
+        <h1>Sıcak İçecekler</h1>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Çoban Çayı<span class="price">65₺</span></div>
+                <div class="description">Sıcak / Soğuk </div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Kös Kös Çayı<span class="price">65₺</span></div>
+                <div class="description">Sıcak / Soğuk </div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Damla Sakızlı Türk Kahvesi<span class="price">70₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Menengiç Kahvesi<span class="price">70₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Dibek Kahvesi<span class="price">70₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Oldurgan Çayı<span class="price">70₺</span></div>
+                <div class="description">Sıcak / Soğuk </div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Filtre Kahve<span class="price">70₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Sultan Kahvesi<span class="price">70₺</span></div>
+                <div class="description">Hikayesini Bilmeden İçmeyiniz! 12 Dk Bekleme Süresi</div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Geleneksel Türk Kahvesi<span class="price">70₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Sütlü Filtre Kahve<span class="price">70₺</span></div>
+            </div>
+        </div>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="name">Klasik Rize Çayı<span class="price">25₺</span></div>
+            </div>
+            <div class="menu-item">
+                <div class="name">Sütlü Türk Kahvesi<span class="price">70₺</span></div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <div>
+                    <p><strong>Adres:</strong><br>Esentepe Mahallesi, Karabekir Sokak, No: 9/1, Eskişehir, Türkiye</p>
+                </div>
+                <div>
+                    <p><strong>İletişim:</strong><br>
+                    Telefon: (0552) 437 62 51<br>
+                    E-posta: omerkaracor09@gmail.com</p>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="https://www.youtube.com" target="_blank" title="YouTube">
+                    <i class="bx bxl-youtube"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" title="Twitter">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
